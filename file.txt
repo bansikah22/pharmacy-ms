@@ -1,0 +1,51 @@
+pharmacy-management-system
+│
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── com
+│   │   │       └── example
+│   │   │           └── pharmacy
+│   │   │               ├── PharmacyManagementSystemApplication.java
+│   │   │               ├── config
+│   │   │               │   └── SecurityConfig.java
+│   │   │               ├── controller
+│   │   │               │   ├── CustomerController.java
+│   │   │               │   ├── DrugController.java
+│   │   │               │   ├── InventoryController.java
+│   │   │               │   ├── ReportController.java
+│   │   │               │   ├── SalesController.java
+│   │   │               │   └── SupplierController.java
+│   │   │               ├── model
+│   │   │               │   ├── Customer.java
+│   │   │               │   ├── Drug.java
+│   │   │               │   ├── Inventory.java
+│   │   │               │   ├── Report.java
+│   │   │               │   ├── Sales.java
+│   │   │               │   └── Supplier.java
+│   │   │               ├── repository
+│   │   │               │   ├── CustomerRepository.java
+│   │   │               │   ├── DrugRepository.java
+│   │   │               │   ├── InventoryRepository.java
+│   │   │               │   ├── ReportRepository.java
+│   │   │               │   ├── SalesRepository.java
+│   │   │               │   └── SupplierRepository.java
+│   │   │               └── service
+│   │   │                   ├── CustomerService.java
+│   │   │                   ├── DrugService.java
+│   │   │                   ├── InventoryService.java
+│   │   │                   ├── ReportService.java
+│   │   │                   ├── SalesService.java
+│   │   │                   └── SupplierService.java
+│   │   └── resources
+│   │       ├── application.properties
+│   │       └── schema.sql
+│   └── test
+│       └── java
+│           └── com
+│               └── example
+│                   └── pharmacy
+│                       └── PharmacyManagementSystemApplicationTests.java
+├── Dockerfile
+├── docker-compose.yml
+└── pom.xml
